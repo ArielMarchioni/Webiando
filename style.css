@@ -1,0 +1,103 @@
+*{
+box-sizing: border-box;
+margin: 0;
+font-family: arial, sans-serif;
+	
+}
+
+/*HEADER*/
+.header{
+	background-image: url(media/bg.jpg);
+	background-size: auto;
+	height: 550px;
+	position: relative;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+}
+
+
+.nav-ul{
+	position:absolute ;
+	left: 50%;
+	right: 50%;
+	top: 20px;
+	z-index: 3;
+}
+
+.nav-li{
+	list-style: none;
+	background-color: #F6F6F6;
+	padding: 6px;
+	border-radius: 6px;
+}
+
+.nav-a{
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding: 8px 60px;
+	color: #fff;
+	cursor: pointer;
+	font-weight: ;/*fojarme que tan ancho quiero*/
+	border-radius: 6px;
+	text-align: center;
+	box-shadow: 0 4px 6px -6px #222;/*quiero la sombra abajo y para la derecha*/
+}
+
+   	.azul{
+   		background-color: #2F70B7;
+   		border: solid 3px #2F70B7;
+   	}
+
+   	.rosa{
+   		background-color: #D44295;
+   		border:solid 3px #D44295;
+   	}
+
+   	.verde{
+   		background-color: #008529;
+   		border:solid 3px #008529;
+   	}
+
+   	.violeta{
+   		background-color: #6600a1;
+   		border:solid 3px #6600a1;
+   	}
+
+   	.nav-a:hover{
+   	    background-color: transparent;
+   	    color: #000;
+   	}
+
+
+.logo{
+	margin-top: 13px;
+	max-width: 484px;
+	z-index: 2;
+	box-shadow: 0 4px 13px -6px #222; 
+
+}
+
+.gif{
+	position: absolute;
+	left: 170px;
+	top: -10px;
+	width: 20%;
+	max-width: 200px;
+	z-index: 1;
+	transform: rotate(-5deg);
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1440px;
+	text-align: center;
+
+}
+
+.bg-section{
+	background-color: #17223b;
+}
