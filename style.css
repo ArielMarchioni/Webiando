@@ -129,3 +129,69 @@ font-family: arial, sans-serif;
 	background: linear-gradient(45deg, rgba(30,49,67,1) 0%, rgba(31,123,229,1) 100%);
 }
 
+.bg{
+	background-image:url(media/email-pattern.png);
+}
+
+
+.space-b{
+	justify-content: space-between;
+}
+
+
+.width-div{
+	width: 720px;
+	max-width: 100%;
+	/*buscar una mejor clase para ponerle tambien a los div de abajo y al costado equisde*/
+}
+
+.h3{
+	font-size: 42px;
+	margin-bottom: 12px;
+	min-width: 298px;
+	color: #fff;
+}
+
+
+/* div video*/
+.videodiv{
+	
+	padding: 50px;
+	/*min-width: 500px;*/
+	/*min-height: 365px;*/
+	position: relative;
+}
+.video{
+	max-width: 100%;
+	width: 626px;
+	border-radius: 10px;
+	
+	
+	
+}
+.mascara{
+	width: 125px;
+	position: absolute;
+	left:  0px;
+	bottom: 0px;
+
+}
+/* div video*/
+
+
+.info{
+	align-items: center;
+	flex-direction: column;
+	min-height: 365px;
+	padding: 5px;
+	 /*ponerle tambien a los de abajo . buscar mejor clase*/
+}
+
+.mac-img{
+	
+	max-width: 100%;
+	
+}
+
+
+
