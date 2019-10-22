@@ -273,8 +273,17 @@ font-family: arial, sans-serif;
 	position: relative;
 }
 
+.card2{
+	z-index: 1;
+}
 
 /*animacion*/
+.pika{
+	width: 100%;
+	overflow: hidden;
+
+}
+
 @keyframes pikachuRun {
 from { margin-left: -150%;  } to { margin-left: 100%;  }}
 
@@ -284,8 +293,11 @@ from { margin-left: -150%;  } to { margin-left: 100%;  }}
 	animation-iteration-count: infinite;
 	position: absolute;
 	bottom: 0px;
+	
 
 }
+
+
 
 /*footer*/
 .footer{
